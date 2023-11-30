@@ -22,7 +22,7 @@ sudo make install
 
 The compile this plugin:
 ```
-git clone --recurse-submodules https://github.com/PlotJuggler/plotjuggler-lsl.git
+git clone --recurse-submodules https://github.com/Sotilrac/plotjuggler-lsl.git
 cd plotjuggler-lsl
 mkdir build; cd build
 cmake -DPlotJuggler_LIBRARY:FILEPATH="/usr/local/bin/" ..
@@ -32,7 +32,7 @@ sudo make install
 
 The compile this plugin for Windows:
 ```
-git clone --recurse-submodules https://github.com/PlotJuggler/plotjuggler-lsl.git
+git clone --recurse-submodules https://github.com/Sotilrac/plotjuggler-lsl.git
 cd plotjuggler-lsl
 mkdir build; cd build
 cmake -DPlotJuggler_LIBRARY:FILEPATH="C:/YOURPATH/PlotJuggler/build/lib" -DPlotJuggler_INCLUDE_DIR:FILEPATH="C:/YOURPATH/PlotJuggler/plotjuggler_base/include" ..
