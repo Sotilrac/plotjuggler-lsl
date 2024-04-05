@@ -9,8 +9,16 @@ You can find additional information about LSL here: https://labstreaminglayer.re
 ## Build
 To build this plugin, PlotJuggler must be installed in your system.
 
-For instance, in Linux, you should perform a full compilation and installation:
+On Linux, perform a full compilation and installation:
 
+### Install Dependencies (Linux Only)
+```bash
+sudo apt install -y qtbase5-dev libqt5svg5-dev libqt5websockets5-dev \
+      libqt5opengl5-dev libqt5x11extras5-dev libprotoc-dev libzmq3-dev \
+      liblz4-dev libzstd-dev
+```
+
+### Build and Install Plot Juggler
 ```
 git clone https://github.com/facontidavide/PlotJuggler.git
 cd PlotJuggler
@@ -20,7 +28,7 @@ make
 sudo make install
 ```
 
-The compile this plugin:
+### Compile this plugin
 ```
 git clone --recurse-submodules https://github.com/Sotilrac/plotjuggler-lsl.git
 cd plotjuggler-lsl
@@ -30,7 +38,7 @@ make
 sudo make install
 ```
 
-The compile this plugin for Windows:
+### Compile this plugin (for Windows):
 ```
 git clone --recurse-submodules https://github.com/Sotilrac/plotjuggler-lsl.git
 cd plotjuggler-lsl
