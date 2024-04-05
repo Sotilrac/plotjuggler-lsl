@@ -39,6 +39,10 @@ sudo make install
 ```
 
 ### Compile this plugin (for Windows):
+
+**Windows Installer**:
+[PlotJuggler-Windows-3.9.0-installer](https://github.com/facontidavide/PlotJuggler/releases/download/3.9.0/PlotJuggler-Windows-3.9.0-installer.exe)
+
 ```
 git clone --recurse-submodules https://github.com/Sotilrac/plotjuggler-lsl.git
 cd plotjuggler-lsl
